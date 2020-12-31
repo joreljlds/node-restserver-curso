@@ -18,8 +18,12 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
     urlDB = process.env.MONGO_URI;
 }
-
 process.env.URLDB = urlDB;
+
+// ========================================
+// Google client id
+// ========================================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '527882806648-urih06fu9u0vrcnkjitir0tbdke4h4jg.apps.googleusercontent.com';
 
 // ========================================
 // Vencimiento de token

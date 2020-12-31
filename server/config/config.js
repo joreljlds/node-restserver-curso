@@ -23,7 +23,7 @@ process.env.URLDB = urlDB;
 // ========================================
 // Google client id
 // ========================================
-process.env.CLIENT_ID = process.env.CLIENT_ID || '527882806648-urih06fu9u0vrcnkjitir0tbdke4h4jg.apps.googleusercontent.com';
+process.env.CLIENT_ID = process.env.CLIENT_ID || '527882806648-mq0d13igt54oa10ivpqg476k33m2td81.apps.googleusercontent.com';
 
 // ========================================
 // Vencimiento de token

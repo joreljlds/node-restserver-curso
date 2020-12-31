@@ -7,7 +7,7 @@
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <!-- <meta name="google-signin-client_id" content="527882806648-3148rca18ovo5sghj7iro1pqg2ngt4do.apps.googleusercontent.com"> -->
-    <meta name="google-signin-client_id" content="527882806648-urih06fu9u0vrcnkjitir0tbdke4h4jg.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="527882806648-mq0d13igt54oa10ivpqg476k33m2td81.apps.googleusercontent.com">
 
     <title>Google Sign in demo</title>
 </head>
@@ -33,6 +33,7 @@
             console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 
             var id_token = googleUser.getAuthResponse().id_token;
+            console.log(id_token);
 
             var xhr = new XMLHttpRequest();
             xhr.open('POST', '/google');

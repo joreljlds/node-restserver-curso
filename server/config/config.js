@@ -28,7 +28,8 @@ process.env.CLIENT_ID = process.env.CLIENT_ID || '527882806648-mq0d13igt54oa10iv
 // ========================================
 // Vencimiento de token
 // ========================================
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+// process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // ========================================
 // SEED de autenticación

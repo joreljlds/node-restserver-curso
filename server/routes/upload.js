@@ -63,7 +63,7 @@ app.put('/upload/:tipo/:id', function(req, res) {
             });
         }
 
-        tipo === 'usuario' ? imagenUsuario(id, res, nombreArchivo) : imagenProducto(id, res, nombreArchivo);
+        tipo === 'usuarios' ? imagenUsuario(id, res, nombreArchivo) : imagenProducto(id, res, nombreArchivo);
     });
 });
 
